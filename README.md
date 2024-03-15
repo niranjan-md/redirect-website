@@ -1,1 +1,1 @@
-Resources of my Redirect website
+Resources of a website which redirects people to my socials.
