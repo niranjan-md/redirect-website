@@ -67,15 +67,15 @@ input, select, textarea {
 	appearance: none;
 }
 
-button {
+.button {
   text-decoration: none;
   position: absolute;
-  top: 120%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border: none;
   font-size: 14px;
-  font-family: roboto;
+  font-family: inherit;
   cursor: pointer;
   color: #fff;
   width: 9em;
@@ -88,7 +88,7 @@ button {
   z-index: 1;
 }
 
-button:hover {
+.button:hover {
   animation: ani 8s linear infinite;
   border: none;
 }
@@ -103,7 +103,7 @@ button:hover {
   }
 }
 
-button:before {
+.button:before {
   content: "";
   position: absolute;
   top: -5px;
@@ -117,13 +117,14 @@ button:before {
   transition: 1s;
 }
 
-button:hover::before {
+.button:hover::before {
   filter: blur(20px);
 }
 
-button:active {
+.button:active {
   background: linear-gradient(32deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
 }
+
 
 
 /* Basic */
